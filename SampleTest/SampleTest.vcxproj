@@ -135,6 +135,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>D:\PythonProject\MPC\casadi;D:\PythonProject\MPC\casadi\build;D:\PythonProject\MPC\casadi\Ipopt_r\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <FloatingPointModel>Fast</FloatingPointModel>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,9 +147,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FOC.cpp" />
+    <ClCompile Include="FOCSolver.c" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="SampleSolver.cpp" />
-    <ClCompile Include="SolveCPP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

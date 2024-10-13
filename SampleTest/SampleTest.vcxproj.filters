@@ -18,13 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SolveCPP.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="SampleSolver.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="FOC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FOCSolver.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,8 +1,8 @@
 #include <Windows.h>
 
-int TestSample();
-void RunFOC();
+//int TestSample();
+void RunFOC(bool UseGenerate, int ticks);
 
 void main() {
-	RunFOC();
+	RunFOC(true, -1);
 }
